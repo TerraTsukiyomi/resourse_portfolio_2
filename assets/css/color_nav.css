@@ -1,0 +1,429 @@
+
+/*----------------------------
+	The Navigation Menu
+-----------------------------*/
+/*.for_colorNav{*/
+/*position: relative;*/
+/*}*/
+
+#colorNav{
+    position: absolute;
+    padding-left: 113em;
+}
+
+#colorNav > ul{
+    width: 100px; /* Increase when adding more menu items */
+    margin-left: auto;
+    /*margin: 0 auto;  !* Выравнивание по середине *!*/
+    /*background-color: ;*/
+}
+
+#colorNav > ul > li{ /* will style only the top level li */
+    list-style: none;
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.2) inset,1px 1px 1px #CCC;
+    /*!*display: inline-block;*!*/
+    /*line-height: 1;*/
+    margin: 10px;
+    border-radius: 3px;
+    position: relative;
+
+    z-index: 2;
+}
+
+#colorNav > ul > li > a{
+    color:inherit;
+    text-decoration:none !important;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+
+/* G */
+
+#layer0 { z-index: 1; }
+
+
+/* Gis */
+
+#colorNav li ul{
+    position: absolute;
+    list-style:none;
+    text-align:center;
+    width:180px;
+    left:-60%;
+    margin-left:-140px;
+    top:-25px;
+    font:bold 12px 'Open Sans Condensed', sans-serif;
+
+    /* This is important for the show/hide CSS animation */
+    max-height:0px;
+    overflow:hidden;
+
+    -webkit-transition:max-height 0.4s linear;
+    -moz-transition:max-height 0.4s linear;
+    transition:max-height 0.4s linear;
+}
+
+#colorNav li ul li{
+    background-color:#313131;
+
+    z-index: 3;
+}
+
+
+#colorNav li ul li a{
+    padding:12px;
+    color:#fff !important;
+    text-decoration:none !important;
+    display:block;
+}
+
+#colorNav li ul li:nth-child(odd){ /* zebra stripes */
+    background-color:#363636;
+}
+
+#colorNav li ul li:hover{
+    background-color:#444;
+}
+
+#colorNav li ul li:first-child{
+    border-radius:3px 3px 0 0;
+    margin-top:25px;
+    position:relative;
+}
+
+/*#colorNav li ul li:first-child:before{ !* the pointer tip *!*/
+/*content:'';*/
+/*position:absolute;*/
+/*width:1px;*/
+/*height:1px;*/
+/*border:5px solid transparent;*/
+/*border-bottom-color:#313131;*/
+/*left:50%;*/
+/*top:-10px;*/
+/*margin-left:45px;*/
+/*}*/
+
+#colorNav li ul li:last-child{
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+}
+
+/* This will trigger the CSS */
+/* transition animation on hover */
+
+#colorNav li:hover ul{
+    max-height:200px; /* Increase when adding more dropdown items */
+}
+
+
+
+/*----------------------------
+	Color Themes for main menu icon
+-----------------------------*/
+
+
+#colorNav li.green{
+    /* This is the color of the menu item */
+    background-color:#00c08b;
+
+    /* This is the color of the icon */
+    color:#127a5d;
+}
+
+#colorNav li.red{		background-color:#ea5080;color:#aa2a52;}
+#colorNav li.blue{		background-color:#53bfe2;color:#2884a2;}
+#colorNav li.yellow{	background-color:#f8c54d;color:#ab8426;}
+#colorNav li.purple{	background-color:#df6dc2;color:#9f3c85;}
+
+
+/*----------------------------
+	The Navigation Menu
+-----------------------------*/
+/*.for_colorNav{*/
+/*position: relative;*/
+/*}*/
+
+#colorNavimn{
+    position: relative;
+    /*padding-left: 30cm;*/
+}
+
+/*#colorNavimn > ul{*/
+/*width: 100px; !* Increase when adding more menu items *!*/
+/*margin-left: auto;*/
+/*!*margin: 0 auto;  !* Выравнивание по середине *!*!*/
+/*!*background-color: ;*!*/
+/*}*/
+
+#colorNavimn > ul > li{ /* will style only the top level li */
+    list-style: none;
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.2) inset,1px 1px 1px #CCC;
+    /*display: inline-block;*/
+    /*line-height: 1;*/
+    /*margin: 10px;*/
+    /*border-radius: 0;*/
+    position: relative;
+
+    /*z-index: 2;*/
+}
+
+#colorNavimn > ul > li > a{
+    color:inherit;
+    text-decoration:none !important;
+    font-size: 24px;
+    /*padding-top: 25px;*/
+    /*padding-left: 30px;*/
+    /*padding-bottom: 25px;*/
+    /*padding-right: 25px;*/
+}
+
+
+/* G */
+
+#layer0 { z-index: 1; }
+
+
+/* Gis */
+
+#colorNavimn li ul{
+    position: absolute;
+    list-style:none;
+    text-align:center;
+    width:180px;
+    left:-60%;
+    margin-left:-95px;
+    top:35px;
+    font:bold 12px 'Open Sans Condensed', sans-serif;
+
+    /* This is important for the show/hide CSS animation */
+    max-height:0px;
+    overflow:hidden;
+
+    -webkit-transition:max-height 0.4s linear;
+    -moz-transition:max-height 0.4s linear;
+    transition:max-height 0.4s linear;
+}
+
+#colorNavimn li ul li{
+    background-color:#313131;
+    z-index: 2;
+    position:relative;
+}
+
+#colorNav li ul li a{
+    padding:12px;
+    color:#fff !important;
+    text-decoration:none !important;
+    display:block;
+    position:relative;
+}
+
+#colorNavimn li ul li:nth-child(odd){ /* zebra stripes */
+    background-color:#363636;
+}
+
+#colorNavimn li ul li:hover{
+    background-color:#444;
+}
+
+#colorNavimn li ul li:first-child{
+    border-radius:3px 3px 0 0;
+    margin-top:25px;
+    position:relative;
+}
+
+/*#colorNav li ul li:first-child:before{ !* the pointer tip *!*/
+/*content:'';*/
+/*position:absolute;*/
+/*width:1px;*/
+/*height:1px;*/
+/*border:5px solid transparent;*/
+/*border-bottom-color:#313131;*/
+/*left:50%;*/
+/*top:-10px;*/
+/*margin-left:45px;*/
+/*}*/
+
+#colorNavimn li ul li:last-child{
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+}
+
+/* This will trigger the CSS */
+/* transition animation on hover */
+
+#colorNavimn li:hover ul{
+    max-height:300px; /* Increase when adding more dropdown items */
+}
+
+
+
+/*----------------------------
+	Color Themes
+-----------------------------*/
+
+
+#colorNavimn li.green{
+    /* This is the color of the menu item */
+    background-color:#00c08b;
+
+    /* This is the color of the icon */
+    color:#127a5d;
+}
+
+#colorNavimn li.red{		background-color:#ea5080;color:#aa2a52;}
+#colorNavimn li.blue{		background-color:#53bfe2;color:#2884a2;}
+#colorNavimn li.yellow{	background-color:#f8c54d;color:#ab8426;}
+#colorNavimn li.purple{	background-color:#df6dc2;color:#9f3c85;}
+
+
+
+
+
+/*----------------------------
+	The Navigation Menu
+-----------------------------*/
+/*.for_colorNav{*/
+/*position: relative;*/
+/*}*/
+
+#colorNav-home{
+    position: absolute;
+    padding-left: 91.5%;
+}
+
+#colorNav-home > ul{
+    width: 100px; /* Increase when adding more menu items */
+    margin-left: auto;
+    /*margin: 0 auto;  !* Выравнивание по середине *!*/
+    /*background-color: ;*/
+}
+
+#colorNav-home > ul > li{ /* will style only the top level li */
+    /*list-style: none;*/
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.2) inset,1px 1px 1px #CCC;
+    /*!*display: inline-block;*!*/
+    /*line-height: 1;*/
+    margin: 10px;
+    border-radius: 3px;
+    position: relative;
+
+    z-index: 2;
+}
+
+#colorNav-home > ul > li > a{
+    color:inherit;
+    text-decoration:none !important;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+
+/* G */
+
+#layer0 { z-index: 1; }
+
+
+/* Gis */
+
+#colorNav-home li ul{
+    position: absolute;
+    list-style:none;
+    text-align:center;
+    width:180px;
+    left:-60%;
+    margin-left:-140px;
+    top:-25px;
+    font:bold 12px 'Open Sans Condensed', sans-serif;
+
+    /* This is important for the show/hide CSS animation */
+    max-height:0px;
+    overflow:hidden;
+
+    -webkit-transition:max-height 0.4s linear;
+    -moz-transition:max-height 0.4s linear;
+    transition:max-height 0.4s linear;
+}
+
+#colorNav-home li ul li{
+    background-color:#313131;
+
+    z-index: 3;
+}
+
+
+#colorNav-home li ul li a{
+    padding:12px;
+    color:#fff !important;
+    text-decoration:none !important;
+    display:block;
+}
+
+#colorNav-home li ul li:nth-child(odd){ /* zebra stripes */
+    background-color:#363636;
+}
+
+#colorNav-home li ul li:hover{
+    background-color:#444;
+}
+
+#colorNav-home li ul li:first-child{
+    border-radius:3px 3px 0 0;
+    margin-top:25px;
+    position:relative;
+}
+
+/*#colorNav-home li ul li:first-child:before{ !* the pointer tip *!*/
+/*content:'';*/
+/*position:absolute;*/
+/*width:1px;*/
+/*height:1px;*/
+/*border:5px solid transparent;*/
+/*border-bottom-color:#313131;*/
+/*left:50%;*/
+/*top:-10px;*/
+/*margin-left:45px;*/
+/*}*/
+
+#colorNav-home li ul li:last-child{
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+}
+
+/* This will trigger the CSS */
+/* transition animation on hover */
+
+#colorNav-home li:hover ul{
+    max-height:200px; /* Increase when adding more dropdown items */
+}
+
+
+
+/*----------------------------
+	Color Themes for main menu icon
+-----------------------------*/
+
+
+#colorNav-home li.green{
+    /* This is the color of the menu item */
+    background-color:#00c08b;
+
+    /* This is the color of the icon */
+    color:#127a5d;
+}
+
+#colorNav-home li.red{		background-color:#ea5080;color:#aa2a52;}
+#colorNav-home li.blue{		background-color:#53bfe2;color:#2884a2;}
+#colorNav-home li.yellow{	background-color:#f8c54d;color:#ab8426;}
+#colorNav-home li.purple{	background-color:#df6dc2;color:#9f3c85;}
+
+
+
+

@@ -1,0 +1,101 @@
+h1 {
+  font-size: 48px;
+  font-weight: bold; }
+
+h2 {
+  font-size: 34px;
+  font-weight: bold; }
+
+h3 {
+  font-size: 20px;
+  font-weight: bold; }
+
+h4 {
+  font-size: 16px;
+  font-weight: bold; }
+
+h5 {
+  font-size: 14px;
+  font-weight: bold; }
+
+h6 {
+  font-size: 12px;
+  font-weight: bold; }
+
+body {
+  font-family: 'Century Gothic', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* -------------------- Нa двое ------------------------- */
+* { margin: 0; padding: 0; }
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  text-align: center;
+
+}
+p { padding: 10px; }
+
+#left {
+  position: absolute; left: 0; top: 0; width: 50%; height: 100%;
+  background-color: #f1f1f1;
+  color: #252527;
+  padding-top: 15px ;
+
+}
+
+#left a{color: #252527;}
+#left a:hover{color: #252527; text-decoration-line: overline; }
+#left a:visited{color: #252527;}
+
+#right {
+  position: absolute; right: 0; top: 0; width: 50%; height: 100%;
+  background-color: #252527;
+  color: #f1f1f1 ;
+  padding-top: 15px ;
+}
+
+
+#right a{color: #f1f1f1;}
+#right a:hover{color: #f1f1f1; text-decoration-line: overline;}
+#right a:visited{color: #f1f1f1;}
+
+/* -------------------- Окружность ------------------------- */
+.circle{
+  border-radius: 100%;
+  background: #f1f1f1;
+  border: 3px solid #252527;
+  width: 150px;
+  height: 150px;
+  align: center;
+  padding-top: 45px;
+  margin-top: 170px;
+
+}
+
+
+.circle1{
+  border-radius: 100%;
+  background: #252527;
+  border: 3px solid #f1f1f1;
+  width: 150px;
+  height: 150px;
+  align: center;
+  padding-top: 55px;
+  margin-top: 170px;
+}
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  margin-left:25%;
+  margin-right:5%; /*Добавляем отступ у пунктов меню*/
+
+}
+
+hr{
+  margin-top: 5px ;
+}

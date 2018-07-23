@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Footer  -->
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="../css/style_default.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3"><h3 id="h3"><a href="../../portfolio.html"><b>PORTFOLIO</b></a></h3></div>
+            <div class="col-sm-6" align="center">
+                <ul class="list-inline">
+                    <li><a href="../../home.html">Home</a></li>
+                    <li><a href="../../test_page_one.html">Catalogue</a></li>
+                    <li><a href="../../account.html">Account</a></li>
+                    <li><a href="../../log_in.html">Log in</a></li>
+                    <li><a href="/">CV</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-1" align="right"><i class="material-icons" style="font-size:40px; color:#f1f1f1">account_circle</i></div>
+        </div>
+    </div>
+</div>
+
+<div id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+
+            </div>
+            <div class="col-4">
+                <form class="form-horizontal">
+                    <fieldset>
+
+                        <!-- Form Name -->
+                        <legend>CV</legend>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="title">Title</label>
+
+                            <div class="col-md-5">
+                                <input id="title" name="title" type="text" placeholder="Category Title" class="form-control input-md"
+                                       required="">
+                                <span class="help-block">Enter a category title</span>
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="permLink">PermLink</label>
+
+                            <div class="col-md-5">
+                                <input id="permLink" name="permLink" type="text" placeholder="" class="form-control input-md"
+                                       required="">
+                                <span class="help-block">Create a perm link in order to show SEO</span>
+                            </div>
+                        </div>
+
+                        <!-- Textarea -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="description">Description</label>
+
+                            <div class="col-md-4">
+                                <textarea class="form-control" id="description" name="description"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Select Basic -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="parentCategory">Parent Category</label>
+
+                            <div class="col-md-5">
+                                <select id="parentCategory" name="parentCategory" class="form-control">
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Button (Double) -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="saveBtn"></label>
+
+                            <div class="col-md-8">
+                                <button id="saveBtn" name="saveBtn" class="btn btn-success">Save</button>
+                                <button id="cancelBtn" name="cancelBtn" class="btn btn-inverse">Cancel</button>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-4">
+                <form class="form-horizontal">
+                    <fieldset>
+
+                        <!-- Form Name -->
+                        <legend>PORTFOLIO</legend>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="title">Title</label>
+
+                            <div class="col-md-5">
+                                <input id="title" name="title" type="text" placeholder="Category Title" class="form-control input-md"
+                                       required="">
+                                <span class="help-block">Enter a category title</span>
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="permLink">PermLink</label>
+
+                            <div class="col-md-5">
+                                <input id="permLink" name="permLink" type="text" placeholder="" class="form-control input-md"
+                                       required="">
+                                <span class="help-block">Create a perm link in order to show SEO</span>
+                            </div>
+                        </div>
+
+                        <!-- Textarea -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="description">Description</label>
+
+                            <div class="col-md-4">
+                                <textarea class="form-control" id="description" name="description"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Select Basic -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="parentCategory">Parent Category</label>
+
+                            <div class="col-md-5">
+                                <select id="parentCategory" name="parentCategory" class="form-control">
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Button (Double) -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="saveBtn"></label>
+
+                            <div class="col-md-8">
+                                <button id="saveBtn" name="saveBtn" class="btn btn-success">Save</button>
+                                <button id="cancelBtn" name="cancelBtn" class="btn btn-inverse">Cancel</button>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-2">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<section id="footer">
+    <div class="container">
+        <div class="row" id="line_footer">
+            <div class="col-6" id="left_side">
+                <p>@2018 - Portfolio - by Terra Tsukiyomi</p>
+            </div>
+            <div class="col-6" id="right_side">
+                <p id="last_dia"><a href="../../welcome.html">Welcome</a> / <a href="../../home.html">Home</a> / <a href="../../test_page_one.html">Catalogue</a> / <a href="../../account.html">Account</a> / <a href="../../log_in.html">Log in</a></p>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container" >
+        <h6><p id="od">/<a href="#">Terra Tsukiyomi</a>/</p></h6>
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <ul class="list-unstyled quick-links">
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Private</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Public</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <ul class="list-unstyled quick-links">
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <ul class="list-unstyled quick-links">
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                    <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <ul class="list-unstyled quick-links">
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Portfolio</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Resumes</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Works</a></li>
+                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Account</a></li>
+                    <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Admin</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="last_line"><hr></div>
+
+    <div class="container" >
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ./Footer -->
+</body>
+</html>

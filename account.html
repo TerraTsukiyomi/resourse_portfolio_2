@@ -1,0 +1,2079 @@
+
+
+
+<!-- 1. для табов в відвежной панели спорит с №4-->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- 2. login/register -->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+<!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
+<!------ 3. Include the above in your HEAD tag ---------->
+
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
+<!--<link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" media="screen">-->
+<!--4 спортин с №.1 -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta charset="UTF-8">
+    <title>Account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">-->
+
+    <!-- Menu -->
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>-->
+    <!--<script type="text/javascript" src="assets/css/panel.js"></script>-->
+    <!--<script type="text/javascript" src="assets/css/menu.js"></script>-->
+
+    <!--<script src="assets/css/js/profile.js"></script>-->
+    <!--<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
+
+    <!--Для главного меню и что б он сварачивался-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="assets/css/js/massage.js"></script>
+
+    <!-- Footer  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+
+    <!-- Snips  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/snip.css">
+
+    <!-- ColorNav  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/color_nav.css">
+
+    <!-- Style for img  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style_for_img.css">
+
+    <!-- Style for img  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/hover.css">
+
+    <!-- Style for chat  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style_darkchat.css">
+
+    <!-- Trips  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/trips.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">-->
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style_default.css">
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
+    <!-- Font Awesome Stylesheet -->
+    <!--<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" />-->
+
+
+</head>
+<body>
+<div class="boxscroll do-nicescroll4">
+    <div class="all_body">
+        <div class="wrapper">
+
+            <!-- Login -->
+            <div id="login_modal" class="modal fade" role="dialog">
+                <div class="formBox">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h1>Contact form</h1>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="inputBox ">
+                                    <div class="inputText">First Name</div>
+                                    <input type="text" name="" class="input">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="inputBox">
+                                    <div class="inputText">Last Name</div>
+                                    <input type="text" name="" class="input">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="inputBox">
+                                    <div class="inputText">Email</div>
+                                    <input type="text" name="" class="input">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="inputBox">
+                                    <div class="inputText">Mobile</div>
+                                    <input type="text" name="" class="input">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="inputBox">
+                                    <div class="inputText">Email</div>
+                                    <textarea class="input"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input type="submit" name="" class="button" value="Send Message">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+
+                <!--<div class="modal-dialog margin-auto">-->
+                <!--<div class="modal-content">-->
+                    <!--<div class="modal-body">-->
+                        <!--<h2 class="text-center text-uppercase">Login to Your Account</h2>-->
+                        <!--<form>-->
+                            <!--<div class="form-group">-->
+                                <!--<input type="text" class="form-control" id="username" placeholder="Username">-->
+                            <!--</div>-->
+                            <!--<div class="form-group">-->
+                                <!--<input type="password" class="form-control" id="password" placeholder="Password">-->
+                            <!--</div>-->
+                            <!--<div class="form-group">-->
+                                <!--<input type="submit" class="form-control btn-primary" value="Login">-->
+                            <!--</div>-->
+                        <!--</form>-->
+                        <!--<p><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#register_modal">Register</a><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#forget-modal">Forget Password</a></p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            </div>
+
+            <!-- Register -->
+            <div id="register_modal" class="modal fade" role="dialog">
+                <div class="modal-dialog margin-auto">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h2 class="text-center text-uppercase">Register to Your Account</h2>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="username" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="form-control btn-primary" value="Login">
+                                </div>
+                            </form>
+                            <p><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#login_modal">Login</a><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#forget-modal">Forget Password</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Create account -->
+            <div id="account_modal" class="modal fade" role="dialog">
+                <div class="modal-dialog margin-auto">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h2 class="text-center text-uppercase">Register to Your Account</h2>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="username" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="form-control btn-primary" value="Login">
+                                </div>
+                            </form>
+                            <p><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#login_modal">Login</a><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#forget-modal">Forget Password</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Create resume -->
+            <div id="resume_modal" class="modal fade" role="dialog">
+                <div class="modal-dialog margin-auto">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h2 class="text-center text-uppercase">Register to Your Account</h2>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="username" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="form-control btn-primary" value="Login">
+                                </div>
+                            </form>
+                            <p><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#login_modal">Login</a><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#forget-modal">Forget Password</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Create portfolio -->
+            <div id="potfolio_modal" class="modal fade" role="dialog">
+                <div class="modal-dialog margin-auto">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h2 class="text-center text-uppercase">Register to Your Account</h2>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="username" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="form-control btn-primary" value="Login">
+                                </div>
+                            </form>
+                            <p><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#login_modal">Login</a><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#forget-modal">Forget Password</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Forget password -->
+            <div id="forget-modal" class="modal fade" role="dialog">
+                <div class="modal-dialog margin-auto">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h2 class="text-center text-uppercase">Forget Your Password</h2>
+                            <form>
+                                <p class="small">Enter your Email Address that you used to register. We'll send you an email with your username and a link to reset your password.</p>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Login -->
+
+
+
+
+
+            <div id="header">
+                <!-- Nav -->
+                <nav class="navbar navbar-expand-md navbar-dark bgcolor-dark">
+
+                    <!--<a class="navbar-brand" href="index.html">Simple Ecommerce</a>-->
+                    <a href="portfolio.html"><h1 id="h3"><b>PORTFOLIO</b></h1></a>
+
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+                        <ul class="navbar-nav m-auto">
+
+
+                            <a href="#" data-toggle="modal" data-target="#resume_modal" class="padding_lrft_right">
+                                <!--<i class="fa fa-drivers-license-o" title="Sign out"></i>-->
+                                CV
+                            </a>
+                            <a href="#" data-toggle="modal" data-target="#potfolio_modal" class="padding_lrft_right">
+                                <!--<i class="fa fa-briefcase" title="Sign out"></i>-->
+                                Portfolio
+                            </a>
+                            <a href="#" data-toggle="modal" data-target="#account_modal" class="padding_lrft_right">
+                                <!--<i class="fa fa-file" title="Sign out"></i>-->
+                                Work
+                            </a>
+                        </ul>
+
+                        <!--colorNav-->
+                        <!--<nav id="colorNav">-->
+                        <!--<ul>-->
+                        <!--<li class="green">-->
+                        <!--<a href="#" class="fa fa-drivers-license-o"></a>-->
+                        <!--<ul>-->
+                        <!--<li class="#layer0"><a href="http://easy-code.ru/lesson/navigacionnoe-css3-menu">Back to the tutorial</a></li>-->
+                        <!--<li class="#layer0"><a href="#">Get help</a></li>-->
+                        <!--<li class="#layer0"><a href="http://easy-code.ru/preview/2012/10/navigacionnoe-css3-menu/navigacionnoe-css3-menu.zip">Download this example</a></li>-->
+                        <!--</ul>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+
+
+
+                        <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+
+
+                        <a href="#" data-toggle="modal" data-target="#login_modal" class="color_white pading_right"><i class="fa fa-search" title="Sign out"></i></a>
+                        <a href="#" class="pading_right"><i class="fa fa-terminal" title="Sign out"></i></a>
+                        <a href="#" data-toggle="modal" data-target="#login_modal" class="color_white pading_right"><i class="fa fa-sign-out" title="Sign out"></i></a>
+
+                        <form class="menu_right hov_icon" id="colorNavimn">
+                            <div class="showme_icon">
+                                <a href="#" class="color_white"><i class="fa fa-wrench" title="Change icon"></i></a>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="account.html">
+                                        <div class="round_big img_avatar_menu hovetitle_icon"></div>
+                                    </a>
+                                    <ul>
+                                        <li class="padding-top30"><a href="#" data-toggle="modal" class="fa fa-archive"></a>                                      <a href="profile.html" class="color_white"> Collection</a></li>
+                                        <li class="padding-top30 #layer0"><a href="#" data-toggle="modal" class="fa fa-envelope"></a>                                      <a href="messaging.html" class="color_white"> Messages</a></li>
+                                        <li class="padding-top30"><a href="#" data-toggle="modal" class="fa fa-address-book"></a>                                           <a href="friends.html" class="color_white"> Friends</a></li>
+                                        <li class="padding-top30"><a href="#" data-toggle="modal" class="fa fa-university"></a>                                           <a href="account.html" class="color_white"> Profile</a></li>
+                                        <li class="padding-top30"><a href="#" data-toggle="modal" class="fa fa-cogs"></a>                                           <a href="profile.html" class="color_white"> Settings</a></li>
+                                        <li class="padding-top30"><a href="#" data-toggle="modal" data-target="#login_modal" class="fa fa-sign-out color_white"></a> <a href="#" data-toggle="modal" data-target="#register_modal" class="color_white"> Log out / Register</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </form>
+                    </div>
+
+                </nav>
+                <!-- ./ Nav -->
+            </div>
+
+
+
+            <!-- ./header -->
+            <div class="jumbotron" id="jumbotron_fon">
+                <div class="container text-center">
+                    <div class="jun-notes">
+                        <!-- fivoriets -->
+                            <span class="left">
+                                <i class="fa fa-tags"></i>
+                                <span class="label label-default">Zbrush</span>
+                                <span class="label label-primary">3DsMax</span>
+                                <span class="label label-success">English</span>
+                                <span class="label label-info">Info Label</span>
+                                <span class="label label-warning">Warning Label</span>
+                                <span class="label label-danger">Danger Label</span>
+                            </span>
+                            <span class="right">
+                                <span align="right"><i class="fa fa-gift"></i> 3</span>
+                                <span><i class="fa fa-heart-o"></i> 14</span>
+                                <span><i class="fa fa-user-o"></i> 4</span>
+                                <span><i class="fa fa-eye"></i> 14</span>
+                                <span><i class="fa fa-users"></i> 4</span>
+                                <span><i class="fa fa-briefcase"></i> 4</span>
+                                <span><i class="fa fa-drivers-license-o"></i> 5</span>
+                                <span><i class="fa fa-file"></i> 6</span>
+                            </span>
+                        <!-- fivoriets -->
+                    </div>
+                    <div class="img-jumbotom"></div>
+
+                    <div class="row">
+                        <!--<img src="https://i1.wallbox.ru/wallpapers/main2/201721/rozovyj-fon-zefir.jpg" class="img-circle" >-->
+                        <!--<img src="https://static.zerochan.net/Amaha.Tsubasa.full.125585.jpg" class="img-circle" >-->
+                        <div class="col-sm-12 avatar_text">
+                            <div class="hov_name_account">
+                                <h1 class="hovetitle_name_account">Jacob Kingsman</h1>
+                                <div class="showme_name_account">
+                                    <a href="#" class="color_black"><i class="fa fa-wrench"></i></a>
+                                    <a href="#" class="color_black"><i class="fa fa-user-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="hov_profession">
+                                <p class="hovetitle_profession"><span><i class="fa fa-university"></i></span> Zbrush maker</p>
+                                <div class="showme_profession"><a href="#" class="color_black"><i class="fa fa-wrench"></i></a></div>
+                            </div>
+
+
+
+
+
+
+                            <!--<p>Portfolio <h1>' World of creature '</h1> by Jacob Hemstongonor</p>-->
+                        </div>
+                    </div>
+
+                    <div class="property-footer-img-jumbotom">
+                        <!--<div class="left-img-jumbotom">gfgbfgb</div>-->
+                        <div class="right-img-jumbotom">
+                            <a href="#" title="Сменить фон"><i class="fa fa-wrench hover_ghost" class="a_hover"></i></a>
+                            <a href="#" title="Перейти в настройки"><i class="fa fa-cogs hover_ghost" class="a_hover"></i></a>
+                            <a href="#" title="Сменить профиль"><i class="fa fa-university hover_ghost" class="a_hover"></i></a></div>
+                    </div>
+
+                    <!--<p class="g_fix">-->
+                    <!--</p>-->
+                </div>
+            </div>
+
+
+
+            <!-- Content -->
+            <div class="wrapper">
+                <div class="content">
+                    <div class="container">
+                        <nav id="colorNav">
+                            <ul>
+                                <li class="green">
+
+
+
+                                    <a href="#" data-toggle="modal" data-target="#resume_modal" class="fa fa-drivers-license-o"></a>
+                                    <ul>
+                                        <li class="#layer0"><a href="#">/ Resume /</a></li>
+                                        <li class="#layer0"><a href="#">Choose...</a></li>
+                                        <li class="#layer0"><a href="#" data-toggle="modal" data-target="#resume_modal">Create</a></li>
+                                        <li class="#layer0"><a href="http://easy-code.ru/preview/2012/10/navigacionnoe-css3-menu/navigacionnoe-css3-menu.zip">Upload</a></li>
+                                        <li class="#layer0"><a href="http://easy-code.ru/preview/2012/10/navigacionnoe-css3-menu/navigacionnoe-css3-menu.zip">View all</a></li>
+                                    </ul>
+                                </li>
+                                <li class="red">
+                                    <a href="#" data-toggle="modal" data-target="#resume_modal" class="fa fa-file"></a>
+                                    <ul>
+                                        <li class="#layer0"><a href="#">/ Work /</a></li>
+                                        <li class="#layer0"><a href="#">Choose...</a></li>
+                                        <li class="#layer0"><a href="#">Create</a></li>
+                                        <li class="#layer0"><a href="#">Upload</a></li>
+                                        <li class="#layer0"><a href="#">View all</a></li>
+                                    </ul>
+                                </li>
+                                <li class="blue">
+                                    <a href="#" data-toggle="modal" data-target="#potfolio_modal" class="fa fa-briefcase"></a>
+                                    <ul>
+                                        <li class="#layer0"><a href="#">/ Portfolio /</a></li>
+                                        <li class="#layer0"><a href="#">Choose...</a></li>
+                                        <li class="#layer0"><a href="#" data-toggle="modal" data-target="#potfolio_modal">Create</a></li>
+                                        <li class="#layer0"><a href="#">Upload</a></li>
+                                        <li class="#layer0"><a href="#">View all</a></li>
+                                    </ul>
+                                </li>
+                                <li class="yellow">
+                                    <a  href="#" data-toggle="modal" data-target="#account_modal" class="fa fa-user"></a>
+                                    <ul>
+                                        <li class="#layer0"><a href="#">/ Profile /</a></li>
+                                        <li class="#layer0"><a href="#">Change...</a></li>
+                                        <li class="#layer0"><a href="#" data-toggle="modal" data-target="#register_modal">Create</a></li>
+                                        <li class="#layer0"><a href="#">View all</a></li>
+                                    </ul>
+                                </li>
+                                <li class="purple">
+                                    <a href="#" class="fa fa-terminal"></a>
+                                    <ul>
+                                        <li><a href="#">/ Terminal /</a></li>
+                                        <li><a href="#">Open</a></li>
+                                        <li><a href="#">History</a></li>
+                                        <li><a href="#">How to use?</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+
+
+
+                            <div class="sorting" align="left">
+
+                            <div class="row">
+                                <div class="col-sm-8 bareer150">
+                                    <ul class="list-inline">
+                                        <ul class="breadcrumb">
+                                            <li><a href="#">Main</a></li>
+                                            <li><a href="#">Jacob</a></li>
+                                            <li><a href="#">Porfolio 'New arts'</a></li>
+                                            <li><a href="#">Folder 'Examples'</a></li>
+                                            <li><a href="#">Work 'Example #4'</a><i class="fa fa-chevron-circle-right"></i></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+
+
+
+
+
+
+
+
+
+                                <div class="col-sm-2 bareer620">
+                                    <!-- Filtres -->
+                                    <ul class="list-inline">
+                                       <li><b>Profile:&nbsp;</b><a href="#">Creative</a></li>
+                                    </ul>
+                                </div>
+
+
+                                <div class="col-sm-2 bareer150">
+                                    <ul class="list-inline">
+                                        <li>
+                                            <div class="dropdown">
+                                                <span><b>View:</b> Show&nbsp;all<i class="fa fa-chevron-down"></i></span>
+
+                                                <div class="dropdown-content my_dropdown">
+                                                        <p><i class="fa fa-square-o"></i><a href="#"> None</a></p>
+                                                        <p><i class="fa fa-check-square-o"></i><a href="#"> All</a></p>
+                                                        <hr>
+                                                        <h5>Sorting by ...</h5>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-sort-alpha-asc"></i><a href="#"> Asc</a></p>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-sort-alpha-desc"></i><a href="#"> Desc</a></p>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-eye"></i><a href="#"> Views</a></p>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-heart"></i><a href="#"> Likes</a></p>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-random"></i><a href="#"> Random</a></p>
+                                                        <hr>
+                                                        <h5>Shaw only ...</h5>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-briefcase"></i><a href="#"> Portfolio</a></p>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-drivers-license-o"></i><a href="#"> Resume</a></p>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-file"></i><a href="#"> Work</a></p>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-folder-o"></i><a href="#"> Folder</a></p>
+                                                        <hr>
+                                                        <h5>Place in ...</h5>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-align-justify"></i><a href="#"> Line</a></p>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-th"></i><a href="#"> Card</a></p>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-sitemap"></i><a href="#">Tree</a></p>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-th-list"></i><a href="#"> List</a></p>
+                                                        <hr>
+                                                        <h5>Access ...</h5>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-lock"></i><a href="#"> Lock</a></p>
+                                                        <p><i class="fa fa-square-o"></i><i class="fa fa-unlock"></i><a href="#"> Unlock</a></p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!-- /. Filtres -->
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="row">
+                                <div class="col-sm-3 bareer300">
+                                    <p><i class="fa fa-server"></i> Resumes</p>
+
+
+                                    <!-- PLENED -->
+                                    <div class="planned-trips">
+                                        <div class="block_resumes">
+                                            <div class="planned-trips__card"> <!--
+  background-color: rgba(241, 241, 241, .0); -->
+                                                <div class="planned-trip__image">
+                                                    <img src="http://unsplash.it/300/300?image=1069" alt="some image" />
+                                                </div>
+                                                <div class="planned-trip__description">
+                                                    <span>' 3D artist trapition lavel 4 '</span>
+                                                    <div class="pinned-trip__itenary">
+                                                        <!--<span><i class="fa fa-calendar"></i></span><span> 31</span><span> Days ago</span>-->
+                                                        <span><i class="fa fa-eye"></i> 5 060 057</span>
+                                                        <span><i class="fa fa-heart-o"></i> 46 100</span>
+                                                        <span><i class="fa fa-expand"></i></span>
+                                                    </div>
+                                                </div>
+                                                <!--<div class="planned-trip__date">-->
+                                                    <!--<span>25</span>-->
+                                                    <!--<span>June</span>-->
+                                                <!--</div>-->
+                                            </div>
+                                            <div class="planned-trips__card">
+                                                <div class="planned-trip__image">
+                                                    <img src="http://unsplash.it/300/300?image=1074" alt="some image" />
+                                                </div>
+                                                <div class="planned-trip__description">
+                                                    <span>' Motor rider '</span>
+                                                    <div class="pinned-trip__itenary">
+                                                        <span><i class="fa fa-unlock"></i></span>
+                                                        <span align="right"><i class="fa fa-bookmark-o"></i></span>
+                                                        <span><i class="fa fa-university"></i></span>
+                                                    </div>
+                                                </div>
+                                                <!--<div class="planned-trip__date">-->
+                                                    <!--<span>08</span>-->
+                                                    <!--<span>august</span>-->
+                                                <!--</div>-->
+                                            </div>
+                                            <div class="planned-trips__card">
+                                                <div class="planned-trip__image">
+                                                    <img src="http://unsplash.it/300/300?image=1050" alt="some image" />
+                                                </div>
+                                                <div class="planned-trip__description">
+                                                    <span>' ZBrush maker '</span>
+                                                    <div class="pinned-trip__itenary">
+                                                        <span><i class="fa fa-download"></i></span>
+                                                        <span><i class="fa fa-pencil"></i></span>
+                                                        <span><i class="fa fa-trash-o"></i></span>
+                                                    </div>
+                                                </div>
+                                                <!--<div class="planned-trip__date">-->
+                                                    <!--<span>16</span>-->
+                                                    <!--<span>September</span>-->
+                                                <!--</div>-->
+                                            </div>
+                                            <div class="planned-trips__card">
+                                                <div class="planned-trip__image">
+                                                    <img src="http://unsplash.it/300/300?image=34" alt="some image" />
+                                                </div>
+                                                <div class="planned-trip__description">
+                                                    <span>'PHP Developer'</span>
+                                                    <div class="pinned-trip__itenary">
+                                                        <span><a href="#"><i class="fa fa-plus-circle"></i></a></span>
+                                                        <span><a href="#"><i class="fa fa-remove"></i></a></span>
+                                                        <span><i class="fa fa-upload"></i></span>
+                                                    </div>
+                                                </div>
+                                                <!--<div class="planned-trip__date">-->
+                                                    <!--<span>25</span>-->
+                                                    <!--<span>november</span>-->
+                                                <!--</div>-->
+                                            </div>
+                                            <div class="planned-trips__card upload_fon_rectangle">
+                                                <!--<div class="planned-trip__image">-->
+                                                    <!--<img src="http://unsplash.it/300/300?image=34" alt="some image" />-->
+                                                <!--</div>-->
+                                                    <p>Create <i class="fa fa-plus-circle"></i>
+                                                    <input id="Upload photo_resume" name="Upload photo" class="input-file solid_stile mini" type="file"></p>
+                                                <!--<div class="planned-trip__date">-->
+                                                <!--<span>25</span>-->
+                                                <!--<span>november</span>-->
+                                                <!--</div>-->
+                                            </div>
+                                            <div class="planned-trips__card">
+                                                <div class="planned-trip__image">
+                                                    <img src="http://unsplash.it/300/300?image=1050" alt="some image" />
+                                                </div>
+                                                <div class="planned-trip__description">
+                                                    <span>' ZBrush maker '</span>
+                                                    <div class="pinned-trip__itenary">
+                                                        <span><i class="fa fa-download"></i></span>
+                                                        <span><i class="fa fa-pencil"></i></span>
+                                                        <span><i class="fa fa-trash-o"></i></span>
+                                                    </div>
+                                                </div>
+                                                <!--<div class="planned-trip__date">-->
+                                                <!--<span>16</span>-->
+                                                <!--<span>September</span>-->
+                                                <!--</div>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- PLANED -->
+
+
+
+
+
+                                </div>
+
+
+                                    <!-- Second column (col-sm-3) -->
+                                    <div class="col-sm-9">
+                                        <div class="row">
+                                            <div class="col-sm-5 bareer320">
+                                                <p><i class="fa fa-briefcase"></i> Portfolio</p>
+                                                <!-- /. team-img -->
+                                                <div class="team-block body_work">
+                                                <!-- rectangle - portfoios -->
+                                                    <div class="row left_part_body">
+
+
+                                                        <div class="middle-rectangle upload_box upload_fon_rectangle">
+                                                            <figcaption>
+                                                                <p><input id="Upload file_to_portfolio" name="Upload photo" class="input-file solid_stile" type="file"></p>
+                                                                <p>или перетащите сюда файл</p>
+                                                            </figcaption>
+                                                            <a href="#"></a>
+                                                        </div>
+
+                                                        <div class="middle-rectangle img_1-2 snip1543 hover">
+                                                            <figcaption>
+                                                                <h3>Inverness McKenzie</h3>
+                                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                                            </figcaption>
+                                                            <a href="#"></a>
+                                                        </div>
+                                                        <div class="middle-rectangle img_1-3 snip1543 hover">
+                                                            <figcaption>
+                                                                <h3>Inverness McKenzie</h3>
+                                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                                            </figcaption>
+                                                            <a href="#"></a>
+                                                        </div>
+                                                        <div class="middle-rectangle img_1-4 snip1543 hover">
+                                                            <figcaption>
+                                                                <h3>Inverness McKenzie</h3>
+                                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                                            </figcaption>
+                                                            <a href="#"></a>
+                                                        </div>
+                                                        <div class="middle-rectangle img_1-5 snip1543 hover">
+                                                            <figcaption>
+                                                                <h3>Inverness McKenzie</h3>
+                                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                                            </figcaption>
+                                                            <a href="#"></a>
+                                                        </div>
+                                                        <div class="middle-rectangle img_1-6 snip1543 hover">
+                                                            <figcaption>
+                                                                <h3>Inverness McKenzie</h3>
+                                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                                            </figcaption>
+                                                            <a href="#"></a>
+                                                        </div>
+                                                        <div class="middle-rectangle img_1-1 snip1543 hover">
+                                                            <figcaption>
+                                                                <h3>Inverness McKenzie</h3>
+                                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                                            </figcaption>
+                                                            <a href="#"></a>
+                                                        </div>
+                                                        <div class="middle-rectangle img_1-2 snip1543 hover">
+                                                            <figcaption>
+                                                                <h3>Inverness McKenzie</h3>
+                                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                                            </figcaption>
+                                                            <a href="#"></a>
+                                                        </div>
+                                                        <div class="middle-rectangle img_1-3 snip1543 hover">
+                                                            <figcaption>
+                                                                <h3>Inverness McKenzie</h3>
+                                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                                            </figcaption>
+                                                            <a href="#"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /. rectangle - portfoios -->
+                                            </div>
+
+
+                                            <div class="col-sm-7 bareer497">
+
+                                                <p><i class="fa fa-file"></i> Work</p>
+                                                <div class="row body_work">
+                                                    <!-- Second column (col-sm-1) -->
+                                                    <div class="col-sm-3">
+                                                        <div class="row">
+                                                            <div class="rectangle_work upload_box upload_fon_rectangle">
+                                                                <figcaption>
+                                                                    <input name="Upload photo" class="input-file mini solid_stile" type="file">
+                                                                    <p>drop here</p>
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-2 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-3 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-4 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-5 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-6 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-1 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-2 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-3 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="row">
+                                                            <div class="rectangle_work img_1-1 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-2 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-3 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-4 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-5 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-6 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-1 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-2 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-3 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="row">
+                                                            <div class="rectangle_work img_1-1 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+                                                                    <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-2 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-3 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-4 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-5 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-6 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-1 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-2 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-3 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="row">
+                                                            <div class="rectangle_work img_1-1 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+                                                                    <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-2 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-3 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-4 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-5 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-6 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-1 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-2 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                            <div class="rectangle_work img_1-3 snip1544 hover">
+                                                                <figcaption>
+                                                                    <h3>Inverness McKenzie</h3>
+
+                                                                </figcaption>
+                                                                <a href="#"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                            </div>
+
+
+
+                                    <!--<script>-->
+
+                                        <!--/* Demo purposes only */-->
+                                        <!--$(".hover").mouseleave(-->
+                                            <!--function() {-->
+                                                <!--$(this).removeClass("hover");-->
+                                            <!--}-->
+                                        <!--);-->
+                                    <!--</script>-->
+
+                                    <!-- Demo purposes only -->
+
+                                <h1 class="pad_top">Intresting</h1>
+                                <div class="row">
+                                    <div class="intresting">
+                                        <div class="round_user_intre user_intre"></div>
+                                        <div class="round_user_intre user_intre"></div>
+                                        <div class="round_user_intre user_intre"></div>
+                                        <div class="round_user_intre user_intre"></div>
+                                        <div class="round_user_intre user_intre"></div>
+                                        <div class="round_user_intre user_intre"></div>
+                                        <div class="round_user_intre user_intre"></div>
+                                        <div class="round_user_intre user_intre"></div>
+                                        <div class="round_user_intre user_intre"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="intresting">
+                                        <div class="square img_1-1">
+                                        </div>
+                                        <div class="square img_1-3">
+                                        </div>
+                                        <div class="square img_1-3">
+                                        </div>
+                                        <div class="square img_1-4">
+                                        </div>
+                                        <div class="square img_1-5">
+                                        </div>
+                                        <div class="square img_1-6">
+                                        </div>
+                                        <div class="square img_1-1">
+                                        </div>
+                                        <div class="square img_1-2">
+                                        </div>
+                                        <div class="square img_1-3">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="intresting">
+                                        <div class="little-rectangle img_1-2 snip1545">
+                                            <figcaption>
+                                                <h3>Inverness McKenzie</h3>
+                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                            </figcaption>
+                                            <a href="#"></a>
+                                        </div>
+                                        <div class="little-rectangle img_1-3 snip1545">
+                                            <figcaption>
+                                                <h3>Inverness McKenzie</h3>
+                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                            </figcaption>
+                                            <a href="#"></a>
+                                        </div>
+                                        <div class="little-rectangle img_1-4 snip1545">
+                                            <figcaption>
+                                                <h3>Inverness McKenzie</h3>
+                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                            </figcaption>
+                                            <a href="#"></a>
+                                        </div>
+                                        <div class="little-rectangle img_1-5 snip1545">
+                                            <figcaption>
+                                                <h3>Inverness McKenzie</h3>
+                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                            </figcaption>
+                                            <a href="#"></a>
+                                        </div>
+                                        <div class="little-rectangle img_1-6 snip1545">
+                                            <figcaption>
+                                                <h3>Inverness McKenzie</h3>
+                                                <p>The only skills I have the patience to learn are those that have no real application in life.</p>
+                                            </figcaption>
+                                            <a href="#"></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+                <!-- ./Content -->
+                <!-- Panel -->
+                <div id="panel">YOUR PROFILE
+                    <div id="hidden_panel">
+                        <div id="sidebar_head">
+                            <div id="sidebar_fon">
+                                <p>jacob.arter@gmail.com</p>
+
+                                <div class="row">
+                                    <div class="round_sidebar img_avatar">
+                                    </div>
+
+                                    <div class="col-sm-8">
+                                        <table><tr><td><h2>Jacob Randolfmant</h2><p>Zbrush maker</p></td></tr></table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="sidebar_body">
+
+                            <div id="sidebar_content">
+                                <!-- RADIO -->
+                                <div id="tab" class="btn-group" data-toggle="buttons-radio">
+                                    <a href="#prices" class="btn" data-toggle="tab">Content</a>
+                                    <a href="#features" class="btn" data-toggle="tab">Tree</a>
+                                    <a href="#requests" class="btn" data-toggle="tab">etc.</a>
+                                    <a href="#contact" class="btn"  data-toggle="tab">Profile</a>
+                                </div>
+
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="prices"><hr>ALL RESUMES, PORTFOLIO, WORKS, etc.<hr>
+
+                                                        <!-- ALL RESUMES, PORTFOLIO, WORKS, etc. -->
+
+                                                                            <p><i class="fa fa-server"></i> Resumes</p>
+                                                                            <div class="little_block_resumes">
+                                                                                <div class="planned-trips__card">
+                                                                                    <div class="planned-trip__image">
+                                                                                        <img src="http://unsplash.it/300/300?image=1069" alt="some image" />
+                                                                                    </div>
+                                                                                    <div class="planned-trip__description">
+                                                                                        <span>' 3D artist trapition lavel 4 '</span>
+                                                                                        <div class="pinned-trip__itenary">
+                                                                                            <!--<span><i class="fa fa-calendar"></i></span><span> 31</span><span> Days ago</span>-->
+                                                                                            <span><i class="fa fa-eye"></i> 5 060 057</span>
+                                                                                            <span><i class="fa fa-heart-o"></i> </span>46 100
+                                                                                            <span><i class="fa fa-expand"></i></span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <!--<div class="planned-trip__date">-->
+                                                                                    <!--<span>25</span>-->
+                                                                                    <!--<span>June</span>-->
+                                                                                    <!--</div>-->
+                                                                                </div>
+                                                                                <div class="planned-trips__card">
+                                                                                    <div class="planned-trip__image">
+                                                                                        <img src="http://unsplash.it/300/300?image=1074" alt="some image" />
+                                                                                    </div>
+                                                                                    <div class="planned-trip__description">
+                                                                                        <span>' Motor rider '</span>
+                                                                                        <div class="pinned-trip__itenary">
+                                                                                            <span><i class="fa fa-unlock"></i></span>
+                                                                                            <span align="right"><i class="fa fa-bookmark-o"></i></span>
+                                                                                            <span><i class="fa fa-university"></i></span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <!--<div class="planned-trip__date">-->
+                                                                                    <!--<span>08</span>-->
+                                                                                    <!--<span>august</span>-->
+                                                                                    <!--</div>-->
+                                                                                </div>
+                                                                                <div class="planned-trips__card">
+                                                                                    <div class="planned-trip__image">
+                                                                                        <img src="http://unsplash.it/300/300?image=1050" alt="some image" />
+                                                                                    </div>
+                                                                                    <div class="planned-trip__description">
+                                                                                        <span>' ZBrush maker '</span>
+                                                                                        <div class="pinned-trip__itenary">
+                                                                                            <span><i class="fa fa-download"></i></span>
+                                                                                            <span><i class="fa fa-pencil"></i></span>
+                                                                                            <span><i class="fa fa-trash-o"></i></span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <!--<div class="planned-trip__date">-->
+                                                                                    <!--<span>16</span>-->
+                                                                                    <!--<span>September</span>-->
+                                                                                    <!--</div>-->
+                                                                                </div>
+                                                                                <div class="planned-trips__card">
+                                                                                    <div class="planned-trip__image">
+                                                                                        <img src="http://unsplash.it/300/300?image=1050" alt="some image" />
+                                                                                    </div>
+                                                                                    <div class="planned-trip__description">
+                                                                                        <span>' ZBrush maker '</span>
+                                                                                        <div class="pinned-trip__itenary">
+                                                                                            <span><i class="fa fa-download"></i></span>
+                                                                                            <span><i class="fa fa-pencil"></i></span>
+                                                                                            <span><i class="fa fa-trash-o"></i></span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <!--<div class="planned-trip__date">-->
+                                                                                    <!--<span>16</span>-->
+                                                                                    <!--<span>September</span>-->
+                                                                                    <!--</div>-->
+                                                                                </div>
+                                                                            </div>
+                                                        <ul>
+                                                            <li><span><a href="#">other ...</a></span></li>
+                                                            <li><span><a href="#">Create a new +</a></span></li>
+                                                        </ul>
+                                                        <hr>
+                                                        <p><i class="fa fa-file"></i> Works</p>
+                                                        <div class="row sidebar_body">
+                                                            <div class="square img_1-1">
+                                                            </div>
+                                                            <div class="square img_1-2">
+                                                            </div>
+                                                            <div class="square img_1-3">
+                                                            </div>
+                                                            <div class="square img_1-4">
+                                                            </div>
+                                                            <div class="square img_1-5">
+                                                            </div>
+                                                            <div class="square img_1-6">
+                                                            </div>
+                                                            <div class="square img_1-1">
+                                                            </div>
+                                                            <div class="square img_1-2">
+                                                            </div>
+                                                            <div class="square img_1-3">
+                                                            </div>
+                                                        </div>
+                                                        <ul>
+                                                            <li><span><a href="#">other ...</a></span></li>
+                                                            <li><span><a href="#">Create a new +</a></span></li>
+                                                        </ul>
+                                                        <hr>
+                                                        <p><i class="fa fa-briefcase"></i> Portfolios</p>
+
+                                                        <div class="row sidebar_body">
+                                                            <div class="little-rectangle img_1-1">
+                                                            </div>
+                                                            <div class="little-rectangle img_1-2">
+                                                            </div>
+                                                            <div class="little-rectangle img_1-3">
+                                                            </div>
+                                                            <div class="little-rectangle img_1-4">
+                                                            </div>
+                                                            <div class="little-rectangle img_1-4">
+                                                            </div>
+                                                        </div>
+                                                        <ul>
+                                                            <li><span><a href="#">look at all ...</a></span></li>
+                                                            <li><span><a href="#">Create a new +</a></span></li>
+                                                        </ul>
+
+                                                        <hr>
+                                                        <p><i class="fa fa-pie-chart"></i> Static</p>
+
+                                                        <table>
+                                                            <tr>
+                                                                <td>Folders:&nbsp;</td>
+                                                                <td class="sidebar_td">31</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Resumes:&nbsp;</td>
+                                                                <td class="sidebar_td">92</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>Portfolios:&nbsp;</td>
+                                                                <td class="sidebar_td">14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Works:&nbsp;</td>
+                                                                <td class="sidebar_td">265</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Folders:&nbsp;</td>
+                                                                <td class="sidebar_td">31</td>
+                                                            </tr>
+                                                        </table>
+                                                        <ul>
+                                                            <li><span><a href="#">look at all ...</a></span></li>
+                                                        </ul>
+                                        <!-- ./ ALL RESUMES, PORTFOLIO, WORKS, etc. -->
+
+                                    </div>
+                                    <div class="tab-pane" id="features"><hr>TREE<hr>
+
+                                                        <form>
+                                                            <h5>C:\Users\Will\Magic</h5>
+                                                            <div class="tree">
+                                                                <div>
+                                                                    <input id="n-0" type="checkbox">
+                                                                    <label class="tree_label" for="n-0">Black</label>
+                                                                    <div class="sub">
+                                                                        <a class="tree_label tree_a" href="#link">Plague Rats</a>
+                                                                        <a class="tree_label tree_a" href="#link">Sengir Vampire</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    <input id="n-1" type="checkbox">
+                                                                    <label class="tree_label" for="n-1">Blue</label>
+                                                                    <div class="sub">
+                                                                        <a class="tree_label tree_a" href="#link">Mana Leak</a>
+                                                                        <a class="tree_label tree_a" href="#link">Time Warp</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    <input id="n-2" type="checkbox">
+                                                                    <label class="tree_label" for="n-2">Green</label>
+                                                                    <div class="sub">
+                                                                        <a class="tree_label tree_a" href="#link">Giant Growth</a>
+                                                                        <a class="tree_label tree_a" href="#link">Liege of the Tangle</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    <input id="n-3" type="checkbox">
+                                                                    <label class="tree_label" for="n-3">Red</label>
+                                                                    <div class="sub">
+                                                                        <a class="tree_label tree_a" href="#link">Mogg Fanatic</a>
+                                                                        <a class="tree_label tree_a" href="#link">Worldfire</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    <input id="n-4" type="checkbox">
+                                                                    <label class="tree_label" for="n-4">White</label>
+                                                                    <div class="sub">
+                                                                        <a class="tree_label tree_a" href="#link">Healing Salve</a>
+                                                                        <a class="tree_label tree_a" href="#link">Serra Angel</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    <input id="n-5" type="checkbox">
+                                                                    <label class="tree_label" for="n-5">Multicolor</label>
+                                                                    <div class="sub">
+                                                                        <div>
+                                                                            <input id="n-5-0" type="checkbox">
+                                                                            <label class="tree_label" for="n-5-0">Blue + Green</label>
+                                                                            <div class="sub">
+                                                                                <a class="tree_label tree_a" href="#link">Simic Aurora</a>
+                                                                                <a class="tree_label tree_a" href="#link">Wistful Selkie</a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div>
+                                                                            <input id="n-5-1" type="checkbox">
+                                                                            <label class="tree_label" for="n-5-1">Red + White</label>
+                                                                            <div class="sub">
+                                                                                <a class="tree_label tree_a" href="#link">Boros Swiftblade</a>
+                                                                                <a class="tree_label tree_a" href="#link">Lightning Helix</a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <input type="reset" value="Collapse All">
+                                                        </form>
+
+
+                                    </div>
+                                    <div class="tab-pane" id="requests"><hr>MESSAGE, FOLLOW, FRENDS, LIKES<hr>
+                                        <!-- INFO ACCOUNT -->
+                                        <div class="fancy-collapse-panel">
+                                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                <!-- 0 -->
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingZero">
+                                                        <h4 class="panel-title">
+                                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseZero" aria-expanded="false" aria-controls="collapseZero">
+                                                                <i class="fa fa-user"></i> Personal info</span>
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseZero" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingZero">
+                                                        <div class="panel-body">
+                                                            <h3><i class="fa fa-user"></i> Personal info</h3>
+                                                            <p><i class="glyphicon glyphicon-gift"></i> July 07, 1977</p>
+                                                            <p><i class="glyphicon glyphicon-gift"></i> Fabraery</p>
+                                                            <p><i class="glyphicon glyphicon-gift"></i> G</p>
+                                                            <p><i class="glyphicon glyphicon-gift"></i> January</p>
+
+                                                            <hr>
+                                                            <h3>Personal Skills</h3>
+                                                            <p><i class="glyphicon glyphicon-gift"></i> July 07, 1977</p>
+                                                            <p><i class="glyphicon glyphicon-gift"></i> Fabraery</p>
+                                                            <p><i class="glyphicon glyphicon-gift"></i> G</p>
+                                                            <p><i class="glyphicon glyphicon-gift"></i> January</p>
+
+                                                            <hr>
+                                                            <h3>Social media</h3>
+                                                            <div class="social-media">
+                                                                <span><a href="#"><i class="fa fa-share-alt"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-gitlab"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-github"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-instagram"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-pinterest"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-trello"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-linkedin"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-facebook-square"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-twitter-square"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-skype"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-telegram"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-whatsapp"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-google-plus"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-vk"></i></a></span>
+                                                                <span><a href="#"><i class="fa fa-youtube-square"></i></a></span>
+                                                            </div>
+
+                                                            <hr>
+                                                            <table class="property-details">
+
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td><i class="fa fa-bed"></i> 3 Beds</td>
+                                                                    <td><i class="fa fa-tint"></i> 2 Baths</td>
+                                                                    <td><i class="fa fa-expand"></i> 25 Ft</td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- 2 -->
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                                        <h4 class="panel-title">
+                                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                <span align="right"><i class="fa fa-hashtag"></i> Hashtags</span>
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                        <div class="panel-body">
+                                                            <p>
+                                                                <span class="label label-default">Zbrush</span>
+                                                                <span class="label label-primary">3DsMax</span>
+                                                                <span class="label label-success">English</span>
+                                                                <span class="label label-info">Info Label</span>
+                                                                <span class="label label-warning">Warning Label</span>
+                                                                <span class="label label-danger">Danger Label</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- 3 -->
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingThree">
+                                                        <h4 class="panel-title">
+                                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                                <span align="right"><i class="fa fa-users"></i> Friends</span>
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                        <div class="panel-body">
+                                                            <div class="friend_avatar">
+                                                                <img src="http://unsplash.it/300/300?image=1069" alt="some image" />
+                                                            </div>
+                                                            <div class="friend_avatar">
+                                                                <img src="http://unsplash.it/300/300?image=1069" alt="some image" />
+                                                            </div>
+                                                            <div class="friend_avatar">
+                                                                <img src="http://unsplash.it/300/300?image=1069" alt="some image" />
+                                                            </div>
+                                                            <div class="friend_avatar">
+                                                                <img src="http://unsplash.it/300/300?image=1069" alt="some image" />
+                                                            </div>
+                                                            <div class="friend_avatar">
+                                                                <img src="http://unsplash.it/300/300?image=1069" alt="some image" />
+                                                            </div>
+                                                            <div class="friend_avatar">
+                                                                <img src="http://unsplash.it/300/300?image=1069" alt="some image" />
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- 4 -->
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingFour">
+                                                        <h4 class="panel-title">
+                                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                                <span><i class="fa fa-heart"></i> Favorites</span>
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                                        <div class="panel-body cFour">
+
+
+                                                            <div id="tab_account " class="btn-group" data-toggle="buttons-radio">
+
+                                                                <a href="#Portfolio_tab1" class="btn btn_h5" data-toggle="tab"> <label class="pading_left">Portfolio</label></a>
+                                                                <a href="#Resume_tab1" class="btn btn_h5" data-toggle="tab"><label class="pading_left">Resumes</label></a>
+                                                                <a href="#Work_tab1" class="btn btn_h5" data-toggle="tab"> <label class="pading_left">Work</label></a>
+                                                                <!--<i class="fa fa-briefcase"></i>-->
+                                                                <!--<i class="fa fa-server"></i>-->
+                                                                <!--<i class="fa fa-file"></i>-->
+                                                            </div>
+
+                                                            <div class="tab-content">
+                                                                <div class="tab-pane active" id="Portfolio_tab1">Portfolio</div>
+                                                                <div class="tab-pane" id="Resume_tab1">Resume</div>
+                                                                <div class="tab-pane" id="Work_tab1">Work</div>
+                                                            </div>
+
+
+
+
+
+
+
+
+
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- 5 -->
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="headingFive">
+                                                        <h4 class="panel-title">
+                                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                                <span><i class="fa fa-pie-chart"></i> Static</span>
+                                                            </a>
+                                                        </h4>
+                                                    </div>
+                                                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                                        <div class="panel-body">
+
+                                                            <p><i class="fa fa-briefcase"></i> Work</p>
+                                                            <hr>
+                                                            <table class="table_center">
+                                                                <tr>
+                                                                    <td><p>Resumes:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>92 <i class="fa fa-drivers-license-o"></i></p></td>
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <td><p>Portfolios:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>14 <i class="fa fa-briefcase"></i></p></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>Works:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>265 <i class="fa fa-file"></i></p></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>Folders:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>31 <i class="fa fa-file-o"></i></p></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>Unlock:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>14 <i class="fa fa-tags"></i></p></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>Lock:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>14 <i class="fa fa-tags"></i></p></td>
+                                                                </tr>
+                                                            </table>
+
+
+                                                            <p><i class="fa fa-heartbeat"></i> Popularity</p>
+                                                            <hr>
+                                                            <table class="table_center">
+                                                                <tr>
+                                                                    <td><p>Visitors today:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>14 <i class="fa fa-eye"></i></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>Your subscribers:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>4 <i class="fa fa-users"></i></p></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>You follow:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>37 <i class="fa fa-tags"></i></p></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>Friends:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>14 <i class="fa fa-users"></i></p></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>You are liked:&nbsp</p></td>
+                                                                    <td class="sidebar_td"><p>92 <i class="fa fa-heart"></i></p></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>You like:&nbsp</p></td>
+                                                                    <td class="sidebar_td"><p>92 <i class="fa fa-heart-o"></i></p></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>Presents:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>15 <i class="glyphicon glyphicon-gift"></i></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>Your stars:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>3 <i class="fa fa-star"></i></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>Your tags:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>3 <i class="fa fa-tags"></i></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><p>Notes:&nbsp;</p></td>
+                                                                    <td class="sidebar_td"><p>64 <i class="fa fa-bookmark"></i></td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="property-footer">
+                                                        <span class="left">
+                                                            See whole profile
+                                                            <i class="fa fa-chevron-circle-right"></i>
+                                                        </span>
+                                                        <span class="right">
+                                                            <a href="#"><i class="fa fa-wrench"></i></a>
+                                                            <a href="#"><i class="fa fa-comments-o"></i></a>
+                                                        </span>
+                                                        <div class="clear"></div>
+                                                    </div>
+
+
+                                                </div>
+
+
+
+
+                                            </div>
+                                        </div>
+                                        <!-- INFO ACCOUNT -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                    <div class="tab-pane" id="contact">
+
+
+                                        <div class="panelinput panel-default">
+                                            <div class="panel-heading text-center">
+                                                <div class="row my_chat_row">
+                                                    <!-- Nav tabs -->
+                                                    <div class="choose_chat_avatar img_avatar_chat border_strong"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+                                                    <div class="choose_chat_avatar img_avatar_chat"></div>
+
+                                                </div>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="side_chat">
+                                                    <div class="side_massages">
+                                                        <h5>Today 17, 2018</h5>
+                                                        <div class="your_side">
+                                                            <div class="mini_chat_avatar img_avatar_chat left"></div>
+                                                            <div class="your_massage">
+                                                                <p class="pad_top_little">Hi, I am Oleg</p>
+                                                            </div>
+                                                            <div class="pinned-trip__itenary">
+                                                                <span><i class="fa fa-calendar"></i></span><span> 31</span><span> Days ago</span>
+                                                                <span><i class="fa fa-mail-reply pad-left-for-fa"></i></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="my_side">
+                                                            <div class="mini_chat_avatar img_avatar_chat right"></div>
+                                                            <div class="my_massage">
+                                                                <p class="pad_top_little">Hi, I am Jacob. What did you want?</p>
+                                                            </div>
+                                                            <div class="pinned-trip__itenary left">
+                                                                <span><i class="fa fa-mail-reply"></i></span>
+                                                                <span><i class="fa fa-calendar"></i></span><span> 31</span><span> Days ago</span>
+                                                            </div>
+                                                        </div>
+                                                        <h5>Two week ago</h5>
+                                                        <div class="your_side">
+                                                            <div class="mini_chat_avatar img_avatar_chat left"></div>
+                                                            <div class="your_massage">
+                                                                <p class="pad_top_little">to talk with. Did you mind?</p>
+                                                            </div>
+                                                            <div class="pinned-trip__itenary">
+                                                                <span><i class="fa fa-calendar"></i></span><span> 31</span><span> Days ago</span>
+                                                                <span><i class="fa fa-mail-reply pad-left-for-fa"></i></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="my_side">
+                                                            <div class="mini_chat_avatar img_avatar_chat right"></div>
+                                                            <div class="my_massage">
+                                                                <p class="pad_top_little">Okey. Let's speak!</p>
+                                                                <p>Distinctively underwhelm synergistic leadership skills through transparent vortals. Monotonectally formulate integrated human capital via market positioning markets. Conveniently reinvent client-focused expertise without turnkey ideas. </p>
+                                                            </div>
+                                                            <div class="pinned-trip__itenary left">
+                                                                <span><i class="fa fa-mail-reply"></i></span>
+                                                                <span><i class="fa fa-calendar"></i></span><span> 31</span><span> Days ago</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="your_side">
+                                                            <div class="mini_chat_avatar img_avatar_chat left"></div>
+                                                            <div class="your_massage">
+                                                                <p class="pad_top_little">Continually disintermediate fully tested sources with B2B convergence. Compellingly reconceptualize standardized total linkage for strategic sources. </p>
+                                                            </div>
+                                                            <div class="pinned-trip__itenary">
+                                                                <span><i class="fa fa-calendar"></i></span><span> 31</span><span> Days ago</span>
+                                                                <span><i class="fa fa-mail-reply pad-left-for-fa"></i></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="my_side">
+                                                            <div class="mini_chat_avatar img_avatar_chat right"></div>
+                                                            <div class="my_massage">
+                                                                <p class="pad_top_little">Okey. Let's see tomorrow! :D </p>
+                                                            </div>
+                                                            <div class="pinned-trip__itenary left">
+                                                                <span><i class="fa fa-mail-reply"></i></span>
+                                                                <span><i class="fa fa-calendar"></i></span><span> 31</span><span> Days ago</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="your_side">
+                                                            <div class="mini_chat_avatar img_avatar_chat left"></div>
+                                                            <div class="your_massage">
+                                                                <p class="pad_top_little">Ok. Buy! ^^</p>
+                                                            </div>
+                                                            <div class="pinned-trip__itenary">
+                                                                <span><i class="fa fa-calendar"></i></span><span> 31</span><span> Days ago</span>
+                                                                <span><i class="fa fa-mail-reply pad-left-for-fa"></i></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel-footer">
+                                                <form>
+                                                    <div class="input-group">
+                                                        <span class="input-group-btn">
+                                                            <button data-toggle="modal" href="#modal-photo" class="btn btn-default bp" type="button"><h1 class="fa fa-2x fa-paperclip"></h1></button>
+                                                        </span>
+                                                        <textarea id="message-text" type="text" class="form-control" placeholder="Message"></textarea>
+                                                        <span class="input-group-btn">
+                                                            <button id="envoi_calm" class="btn btn-default bp calm" type="button"><h1 class="fa fa-2x fa-paper-plane"></h1></button>
+                                                        </span>
+                                                    </div>
+                                                </form>
+                                                <div class="chat-footer">
+                                                    <p class="left">
+                                                        320 characters remaining
+                                                    </p>
+                                                    <span class="right">
+                                                            <a href="#"><i class="fa fa-cogs"></i></a>
+                                                        </span>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+
+                                        <div class="modal" id="modal-photo">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">x</button>
+                                                        <h4 class="modal-title">Envoyer une photo</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <input type="file" name ="photo" id="photo" accept="image/*">
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button id="validation" class="btn btn-primary">Envoyer</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br/>
+                                        <div class="little-social-media">
+                                            <span><a href="#"><i class="fa fa-share-alt"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-gitlab"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-github"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-instagram"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-pinterest"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-trello"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-linkedin"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-facebook-square"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-twitter-square"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-skype"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-telegram"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-whatsapp"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-google-plus"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-vk"></i></a></span>
+                                            <span><a href="#"><i class="fa fa-youtube-square"></i></a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ./ RADIO -->
+                            </div>
+
+
+
+
+
+                            <!-- Finish body sidebar -->
+                            <a href="#"><h3 id="log_out">LOG OUT</h3></a>
+                            <!-- ./ Finish body sidebar -->
+
+                        </div>
+                        <div id="sidebar_footer">
+                            <span align="right">Theme: <a href="#"><b>DARCULA</b></a></span>
+                            <table align="right">
+                                <tr>
+                                    <td><span>Appearence:&nbsp;</span></td>
+                                    <td><span>09.01.2017</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><span>Last visit:</span></td>
+                                    <td><span>18.01.2017</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./panel -->
+            <!-- Footer -->
+            <section id="footer">
+                <div class="container">
+                    <p class="padding-top">Tags:
+                        <a href="#"><span class="label label-info">Snipp</span></a>
+                        <a href="#"><span class="label label-info">Bootstrap</span></a>
+                        <a href="#"><span class="label label-info">UI</span></a>
+                        <a href="#"><span class="label label-info">growth</span></a>
+                        | <i class="icon-user"></i> <a href="#">Admin</a>
+                        | <i class="icon-calendar"></i> Sept 16th, 2012 at 4:20 pm
+                        | <i class="icon-comment"></i> <a href="#">3 Comments</a>
+                        | <i class="icon-share"></i> <a href="#">39 Shares</a>
+                        | <span>@2018 - Portfolio - by <a href="#"><b>Terra Tsukiyomi</b></a></span>
+                    </p>
+                </div>
+
+                <hr>
+
+                <div class="container" >
+                    <p id="last_dia"><a href="welcome.html">Welcome</a> / <a href="home.html">Home</a> / <a href="test_page_one.html">Catalogue</a> / <a href="account.html">Account</a> / <a href="#" data-toggle="modal" data-target="#login_modal">Log in</a></p>
+                        <div class="row text-center text-xs-center text-sm-left text-md-left">
+                            <div class="col-xs-12 col-sm-3 col-md-3 list-inline">
+                                <ul class="list-unstyled quick-links">
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Private</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Public</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-3 list-inline">
+                                <ul class="list-unstyled quick-links">
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Discussing</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Chat</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Flood</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-3 list-inline">
+                                <ul class="list-unstyled quick-links">
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>F.A.Q.</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Comments</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Help</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Write to admin</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-3 list-inline">
+                                <ul class="list-unstyled quick-links">
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Portfolio</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Resumes</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Works</a></li>
+                                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Account</a></li>
+                                    <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Admin</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+
+                <hr>
+                <h6><p id="od">/<a href="#">Terra Tsukiyomi</a>/</p></h6>
+
+
+                <!-- Footer -->
+                <footer class="text-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-4 col-xl-3">
+                                <h5>About</h5>
+                                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                                <p class="mb-0">
+                                    Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+                                <h5>Informations</h5>
+                                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                                <ul class="list-unstyled">
+                                    <li><a href="">Link 1</a></li>
+                                    <li><a href="">Link 2</a></li>
+                                    <li><a href="">Link 3</a></li>
+                                    <li><a href="">Link 4</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+                                <h5>Discussing</h5>
+                                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                                <ul class="list-unstyled">
+                                    <li><a href="">F.A.Q.</a></li>
+                                    <li><a href="">Comments</a></li>
+                                    <li><a href="">Chat</a></li>
+                                    <li><a href="">Help</a></li>
+                                    <li><a href="">Write to admin</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-4 col-lg-3 col-xl-3">
+                                <h5>Contact</h5>
+                                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-home mr-2"></i> My company</li>
+                                    <li><i class="fa fa-envelope mr-2"></i> email@example.com</li>
+                                    <li><i class="fa fa-phone mr-2"></i> + 33 12 14 15 16</li>
+                                    <li><i class="fa fa-print mr-2"></i> + 33 12 14 15 16</li>
+                                </ul>
+                            </div>
+                            <div class="col-12 copyright mt-3">
+                                <p class="float-left">
+                                    <a href="#">Back to top</a>
+                                </p>
+                                <p class="text-right text-muted">created with <i class="fa fa-heart"></i> by <a href="https://t-php.fr/43-theme-ecommerce-bootstrap-4.html"><i>t-php</i></a> | <span>v. 1.0</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+
+
+
+
+
+
+
+                <div id="last_line"><hr></div>
+
+
+                <div class="container" >
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                            <ul class="list-unstyled list-inline social text-center">
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- ./Footer -->
+    </div>
+</div>
+
+
+</body>
+</html>

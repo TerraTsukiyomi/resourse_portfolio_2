@@ -1,0 +1,370 @@
+
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<!-- login/register -->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+<!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">-->
+
+    <!-- Footer  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style_default.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<body>
+
+<div class="boxscroll do-nicescroll4">
+    <div class="all_body">
+        <div class="wrapper">
+            <!-- Login -->
+            <div id="login_modal" class="modal fade" role="dialog">
+                <div class="modal-dialog margin-auto">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h2 class="text-center text-uppercase">Login to Your Account</h2>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="username" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="form-control btn-primary" value="Login">
+                                </div>
+                            </form>
+                            <p><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#register_modal">Register</a><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#forget-modal">Forget Password</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Register -->
+            <div id="register_modal" class="modal fade" role="dialog">
+                <div class="modal-dialog margin-auto">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h2 class="text-center text-uppercase">Register to Your Account</h2>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="username" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="form-control btn-primary" value="Login">
+                                </div>
+                            </form>
+                            <p><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#login_modal">Login</a><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#forget-modal">Forget Password</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Create account -->
+            <div id="account_modal" class="modal fade" role="dialog">
+                <div class="modal-dialog margin-auto">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h2 class="text-center text-uppercase">Register to Your Account</h2>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="username" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="form-control btn-primary" value="Login">
+                                </div>
+                            </form>
+                            <p><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#login_modal">Login</a><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#forget-modal">Forget Password</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Create resume -->
+            <div id="resume_modal" class="modal fade" role="dialog">
+                <div class="modal-dialog margin-auto">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h2 class="text-center text-uppercase">Register to Your Account</h2>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="username" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="form-control btn-primary" value="Login">
+                                </div>
+                            </form>
+                            <p><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#login_modal">Login</a><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#forget-modal">Forget Password</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Create portfolio -->
+            <div id="potfolio_modal" class="modal fade" role="dialog">
+                <div class="modal-dialog margin-auto">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h2 class="text-center text-uppercase">Register to Your Account</h2>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="username" placeholder="Username">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="form-control btn-primary" value="Login">
+                                </div>
+                            </form>
+                            <p><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#login_modal">Login</a><a class="small modal-links" href="#" data-dismiss="modal" data-toggle="modal" data-target="#forget-modal">Forget Password</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Forget password -->
+            <div id="forget-modal" class="modal fade" role="dialog">
+                <div class="modal-dialog margin-auto">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h2 class="text-center text-uppercase">Forget Your Password</h2>
+                            <form>
+                                <p class="small">Enter your Email Address that you used to register. We'll send you an email with your username and a link to reset your password.</p>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ./Login -->
+            <!-- Header -->
+            <div id="header" id="suggestions">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3"><h3 id="h3"><a href="portfolio.html"><b>PORTFOLIO</b></a></h3></div>
+                        <div class="col-sm-6" align="center">
+                            <ul class="list-inline">
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="test_page_one.html">Catalogue</a></li>
+                                <li><a href="account.html">Account</a></li>
+                                <li><a href="test_page_two.html">Tests</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#login_modal">Log in</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#register_modal">Register</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#account_modal">Create account</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#resume_modal">Create create</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#potfolio_modal">Create porfolio</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-1" align="right">
+                            <a href="#" class="menu-icon js-menu_toggle closed">
+                                <div class="handle">
+                                    <i class="material-icons" style="font-size:40px; color:#f1f1f1">account_circle</i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./header -->
+
+
+
+
+
+
+
+
+
+            <!-- Content -->
+            <div class="content_for_test">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4">
+                            <table class="table table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>Action</th>
+                                    <th>What happends</th>
+                                    <th>Result</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Sidebar</td>
+                                    <td>Is made</td>
+                                    <td>Passed</td>
+                                </tr>
+                                <tr class="danger">
+                                    <td>Sidebar </td>
+                                    <td>Move from right</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr class="danger">
+                                    <td>Main menu</td>
+                                    <td>Change</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr class="danger">
+                                    <td>5 prises</td>
+                                    <td>Is made</td>
+                                    <td>No</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-sm-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <section id="footer">
+        <div class="container">
+            <div class="row" id="line_footer">
+                <div class="col-6" id="left_side">
+                    <p>@2018 - Portfolio - by Terra Tsukiyomi</p>
+                </div>
+                <div class="col-6" id="right_side">
+                    <p id="last_dia"><a href="welcome.html">Welcome</a> / <a href="home.html">Home</a> / <a href="test_page_one.html">Catalogue</a> / <a href="account.html">Account</a> / <a href="#" data-toggle="modal" data-target="#login_modal">Log in</a></p>
+
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container" >
+            <h6><p id="od">/<a href="#">Terra Tsukiyomi</a>/</p></h6>
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Private</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Public</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                        <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Portfolio</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Resumes</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Works</a></li>
+                        <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Account</a></li>
+                        <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Admin</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="last_line"><hr></div>
+
+
+        <div class="container" >
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./Footer -->
+
+
+</body>
+</html>

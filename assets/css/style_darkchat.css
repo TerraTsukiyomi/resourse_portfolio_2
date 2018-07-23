@@ -1,0 +1,202 @@
+
+.panelinput{
+    width: 374px;
+    border: 1px #A0A0A0 solid;
+}
+
+#contactinput{
+    width: 50px;
+    height: 50px;
+    margin:auto;
+    padding:7px 8px 7px 8px;
+    background-color :#A4A4A4;
+    border-radius: 25px 25px 25px 25px;
+}
+
+
+.panel-body{
+    background-color: #fff;
+    height:350px;
+    overflow-y: auto;
+}
+
+.date{
+    color: #A4A4A4;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+.message{
+    font-size: 1.2em;
+    width: auto;
+    max-width:300px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.message-in {
+    background-color: #E5E5EA;
+    margin-left: 20px;
+
+}
+.message-out{
+    background-color : #22D351;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+
+textarea{
+    margin-left: 28px;
+    margin-right: 0px;
+
+}
+.input-group{
+    padding-right: 80px;
+}
+.bp{
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+    height: 45px;
+}
+
+.calm{
+
+}
+/*******************************
+                MY
+ */
+
+.side_chat{
+    padding-top: 5px;
+    /*padding-bottom: 5px;*/
+    /*padding-left: 25%;*/
+    /*width: 80%;*/
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+}
+
+.your_side{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    float: left;
+    position: relative;
+    width: 325px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-topright: 5px;
+}
+.my_side{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    position: relative;
+    float: right;
+    width: 325px;
+
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+}
+
+.side_input_massage{
+    position: relative;
+    margin-top: 262px;
+    background-color: #eeeeee;
+    height: 50px;
+    /*border: 2px solid red;*/
+    /*border-radius: 5px;*/
+}
+/************************************
+                FOR CHAT
+ */
+
+.choose_chat_avatar{
+    float: left;
+    position: relative;
+    width: 60px;
+    padding-bottom: 60px; /* = width for a 1:1 aspect ratio */
+    margin-left: 3.1%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+    -webkit-border-radius: 50%; /* закругление границ для всех браузеров*/
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.my_chat_row{
+    height: 62px;
+    overflow-x: auto;
+}
+.border_strong{
+    border: 5px solid #f8adb8;
+}
+
+.mini_chat_avatar{
+    position: relative;
+    width: 40px;
+    padding-bottom: 40px; /* = width for a 1:1 aspect ratio */
+    margin:5%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+    -webkit-border-radius: 50%; /* закругление границ для всех браузеров*/
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+}
+
+
+.avatar_chat {
+    position: relative;
+    width: 90%;
+    padding-bottom: 90%; /* = width for a 1:1 aspect ratio */
+    margin:5%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+    -webkit-border-radius: 50%; /* закругление границ для всех браузеров*/
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+.img_avatar_chat{
+    background-image: url('https://static.zerochan.net/Amaha.Tsubasa.full.125585.jpg');
+    border: #f1f1f1 solid 1px;
+}
+
+.nickname{
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+}
+
+.your_massage{
+    padding: 5px;
+    background-color: #ffe5cd;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+.my_massage{
+    padding: 5px;
+    background-color: #c4ffaa;
+    border-radius: 5px;
+    margin-right: 60px;
+}
+
+.chat-footer{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.side_chat{
+    overflow-y: auto;
+}
+
+
